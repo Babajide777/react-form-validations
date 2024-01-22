@@ -1,0 +1,5 @@
+@mixin error-img-position($the-top, $the-right) {
+  position: absolute;
+  top: $the-top;
+  right: $the-right;
+}
