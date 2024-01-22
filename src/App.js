@@ -1,8 +1,14 @@
+import ReactHookForm from "./components/ReactHookForm";
+import "./styles/css/app.css";
+
 function App() {
   return (
-    <div>
-      <p>Jide</p>
-    </div>
+    <main>
+      <h1>React Form Validations</h1>
+      <section>
+        <ReactHookForm />
+      </section>
+    </main>
   );
 }
 
