@@ -1,5 +1,6 @@
 import AntDesignForm from "./components/AntDesignForm";
 import FormikForm from "./components/FormikForm";
+import ReactFinalForm from "./components/ReactFinalForm";
 import ReactHookForm from "./components/ReactHookForm";
 import TanStackForm from "./components/TanStackForm";
 import "./styles/css/app.css";
@@ -13,6 +14,7 @@ function App() {
         <FormikForm />
         <AntDesignForm />
         <TanStackForm />
+        <ReactFinalForm />
       </section>
     </main>
   );
