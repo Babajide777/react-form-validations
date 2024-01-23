@@ -9,8 +9,6 @@ const ReactHookForm = () => {
     handleSubmit,
   } = useForm();
   const onSubmit = (data) => {
-    console.log(errors);
-    console.log("RESULT", data);
     alert(JSON.stringify(data));
   };
   return (

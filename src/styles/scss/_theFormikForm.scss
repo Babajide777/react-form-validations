@@ -1,0 +1,16 @@
+.formik-form {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 500px;
+  gap: 2rem;
+  padding-bottom: 2rem;
+}
+
+.field-error {
+  color: #bf1650;
+  font-size: 10px;
+  font-weight: 200;
+}
